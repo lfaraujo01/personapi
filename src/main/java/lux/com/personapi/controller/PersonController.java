@@ -11,6 +11,6 @@ public class PersonController {
 
     @GetMapping
     public String getbook(){
-        return "Olha ai Lijaninha, pira o cabeção na pogramação kkkk";
+        return "Apliação no Heroku";
     }
 }
