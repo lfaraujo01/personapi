@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1/people")
+@RequestMapping("/api/v1")
 public class PersonController {
 
     @GetMapping
     public String getbook(){
-        return "Apliação no Heroku";
+        return "to online agora segura o pogramador";
     }
 }
