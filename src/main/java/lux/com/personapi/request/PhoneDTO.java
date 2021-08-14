@@ -21,6 +21,5 @@ public class PhoneDTO {
     private PhoneType type;
 
     @NotNull
-    @
     private String number;
 }
